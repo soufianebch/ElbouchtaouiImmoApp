@@ -1,0 +1,60 @@
+/* General styles for mobile menu */
+.site-mobile-menu {
+    display: none; /* Hidden by default */
+  }
+  
+  .site-mobile-menu.active {
+    display: block; /* Show when active */
+  }
+  
+  .site-mobile-menu-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .site-mobile-menu-close {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .site-mobile-menu-body {
+    background-color: #fff;
+    padding: 15px;
+  }
+  
+  .site-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .site-menu li {
+    margin-bottom: 10px;
+  }
+  
+  .site-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .burger {
+    display: none; /* Hidden by default on larger screens */
+  }
+  
+  @media (max-width: 992px) {
+    .site-nav .d-none {
+      display: none;
+    }
+  
+    .site-nav .d-lg-none {
+      display: block;
+    }
+  
+    .burger {
+      display: inline-block; /* Show burger menu on mobile */
+    }
+  }
+  

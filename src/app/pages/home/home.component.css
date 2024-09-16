@@ -1,0 +1,16 @@
+.scrollable-images {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0; /* Optional: for padding around images */
+  }
+  
+  .scrollable-images .img {
+    display: inline-block;
+  }
+  
+  .pagination-container {
+    background-color: #0000; /* Optional: background color for better visibility */
+     /* box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); Optional: shadow effect */
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+  

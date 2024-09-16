@@ -1,0 +1,57 @@
+export interface Property {
+    otherProperties?: string;
+    hashtag: number;
+    ville: string;
+    prix: number;
+    googleDriveFolderId?: string;
+    publish_counter?: number;
+    contact?: {
+      firestore?: any;
+      _delegate?: any;
+      _persistenceProvider?: any;
+      INTERNAL?: any;
+      _appCompat?: any;
+    };
+    images?: string[];
+    stared?: boolean;
+    secteur: string;
+    title_ar?: string;
+    description_ar?: string;
+    nbrSallesDeBain: number;
+    address: string;
+    surfaceHabitable: number;
+    nbrEtage: number;
+    inStock: number;
+    cuisineEquipee: boolean;
+    nbrChambres: number;
+    equipements?: any[];
+    typedebien: string;
+    miniature?: string;
+    surfaceTotal: number;
+    nbrFacades: number;
+    nbrCuisine: number;
+    createdTimeStamp: {
+      seconds: number;
+      nanoseconds: number;
+    };
+    nbrBalcons: number;
+    title?: string;
+    nbrSalons: number;
+    changed?: boolean;
+    description?: string;
+    meuble?: boolean;
+    parking?: boolean;
+    city?: string;
+    Secteur?: string;
+    duplex?: boolean;
+    climatisation?: boolean;
+    terrasse?: boolean;
+    py_script?: string;
+    youtube?: string;
+    facebook?: string;
+    size?: number;
+    securite?: boolean;
+    concierge?: boolean;
+    chauffage?: boolean;
+    contact_id?: string | null;
+  }
